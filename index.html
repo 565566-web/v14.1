@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>暗影刷宝 V13</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>暗影刷宝 V14</title>
 <style>
 :root{--bg:#090b10;--p:#121720;--p2:#181e29;--line:#303949;--text:#edf1f7;--muted:#8d98aa;--gold:#d9ad51;--red:#dc5a5a;--blue:#55a9ff;--purple:#b96cff;--orange:#e99a4a;--green:#69c77a}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -15%,#263244,#090b10 48%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.app{max-width:560px;margin:auto;min-height:100vh;padding-bottom:90px}header{padding:15px;background:#090b10e8;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}h1{font-size:21px;margin:0;font-weight:900}.sub{font-size:10px;color:var(--muted);margin-top:4px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}.stat,.panel,.item,.slot,.map,.currency{background:linear-gradient(180deg,#171d27,#10141b);border:1px solid var(--line);border-radius:12px}.stat{padding:7px}.stat b{display:block;font-size:13px}.stat span,.small{font-size:10px;color:var(--muted)}main{padding:12px}.panel{padding:12px;margin-bottom:10px;box-shadow:0 8px 24px #0004}.row{display:flex;justify-content:space-between;align-items:center;gap:8px}.section{font-size:14px;font-weight:850;margin-bottom:7px}.enemy{font-size:18px;font-weight:900}.boss{color:#ff6868}.bar{height:8px;background:#252b35;border-radius:9px;overflow:hidden;margin:8px 0}.hp{height:100%;background:linear-gradient(90deg,#9e2727,#e45c5c)}button{border:1px solid #3b4658;background:#1c2430;color:var(--text);padding:9px;border-radius:9px;font-weight:750}button.primary{background:#2b4d7b;border-color:#4f79ad}button.gold{background:#49371e;border-color:#82632e;color:#f1ca70}button.green{background:#1f3b29;border-color:#3c704d}.grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}.tabs{min-height:68px;align-items:stretch;position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:560px;display:grid;grid-template-columns:repeat(8,1fr);background:#0d1118ed;border-top:1px solid var(--line);backdrop-filter:blur(14px);z-index:9}.tab{text-align:center;padding:12px 1px 13px;color:#8f9aaa;font-size:11px;min-height:68px;display:flex;flex-direction:column;justify-content:center;gap:3px;touch-action:manipulation;-webkit-tap-highlight-color:transparent}.tab:first-line{font-size:12px}.tab.active{color:#fff}.hidden{display:none}.pill{font-size:9px;border:1px solid var(--line);border-radius:20px;padding:4px 6px;color:#aeb8c7}.log{max-height:130px;overflow:auto;font-size:10px;color:#a3adbc;line-height:1.55}.normal{color:#c9ced7}.magic{color:#55a9ff}.rare{color:#ffd447}.unique{color:#e99a4a}.set{color:#58d66f}.flask{color:#9bd7ff}.flask-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.flask-card{padding:8px;border:1px solid #30495a;border-radius:10px;background:#0d151c;text-align:center}.flask-card img{width:38px;height:38px}.charges{font-size:9px;color:#9aa8b8}.set-bonus{border-left:3px solid #58d66f;padding-left:7px;margin-top:6px;font-size:10px}.corrupt{color:#f05b8d}.map-normal{border-color:#727b88}.map-magic{border-color:#55a9ff;box-shadow:inset 0 0 16px #55a9ff14}.map-rare{border-color:#ffd447;box-shadow:inset 0 0 18px #ffd44718}.map-unique{border-color:#e99a4a;box-shadow:inset 0 0 20px #e99a4a20}.currency-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.currency{padding:9px}.currency b{display:block;font-size:12px}.currency span{font-size:9px;color:var(--muted)}.map-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.map{padding:11px}.map b{display:block}.map .desc{font-size:10px;color:#aeb8c7;margin:5px 0}.equip-wrap{display:grid;grid-template-columns:1fr 1.08fr 1fr;grid-template-rows:76px 92px 76px;gap:6px}.slot{padding:6px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;min-width:0;overflow:hidden}.slot.empty{border-style:dashed;background:#0e131b}.slot-icon{font-size:22px}.slot-label{font-size:9px;color:var(--muted)}.slot-img{width:36px;height:36px}.slot-name{font-size:9px;font-weight:800;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}.center{grid-column:2;grid-row:1/4}.character{width:100%;height:100%;border:1px solid #303949;border-radius:14px;background:radial-gradient(circle at 50% 38%,#303b4b,#111720 64%);display:flex;align-items:center;justify-content:center;flex-direction:column}.character .body{font-size:55px}.craft-actions{display:grid;grid-template-columns:1fr 1fr;gap:7px}.shop{display:grid;grid-template-columns:1fr 1fr;gap:8px}.shop-card{padding:10px;border:1px solid #303949;border-radius:10px;background:#0f141c}.shop-card b{font-size:12px}.shop-card p{font-size:10px;color:var(--muted);min-height:28px}.notice{font-size:10px;color:#9aa5b5;line-height:1.5;margin-top:7px}
 .icon{width:42px;height:42px;object-fit:contain;filter:drop-shadow(0 2px 5px #0008);vertical-align:middle}.currency-icon{width:34px;height:34px}.item-head{display:flex;align-items:center;gap:8px}.item.selectable{cursor:pointer}.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.compare-card{border:1px solid #3b4658;border-radius:11px;padding:9px;background:#0d131b}.compare-card.equipped{border-color:#d9ad51}.compare-title{font-size:11px;font-weight:850;margin-bottom:6px}.detail-aff{font-size:10px;line-height:1.5}.detail-base{font-size:10px;color:#aeb8c7;line-height:1.45;margin:5px 0}.empty-compare{font-size:10px;color:#7f8999;padding:8px 0}.icon{user-select:none;-webkit-user-drag:none}.sellbar{display:flex;gap:6px;margin:8px 0}.stash-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:8px}.stash-tab{font-size:10px;padding:8px 3px}.stash-tab.active{background:#2a3545;border-color:#61728b}.stash-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.stash-cell{min-height:70px;padding:7px;border:1px solid var(--line);border-radius:10px;background:#0d1219;text-align:center}.stash-cell img{width:34px;height:34px;display:block;margin:auto}.stash-cell b{font-size:11px}.stash-cell span{display:block;font-size:9px;color:var(--muted)}.warehouse-gear .item{margin-bottom:7px}.price{color:#d9ad51;font-weight:800}.rarity-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:4px}.attr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:8px}.attr-card{padding:8px;border:1px solid #303949;border-radius:10px;background:#0e141c}.attr-card b{display:block;font-size:12px}.attr-card span{font-size:9px;color:#aeb8c7}.attr-card button{margin-top:6px;width:100%;padding:6px}.res-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-top:6px}.res-box{padding:6px;border:1px solid #303949;border-radius:8px;background:#0e141c;text-align:center;font-size:9px}.res-box b{display:block;font-size:12px}.inc{color:#69c77a}.more{color:#f1ca70}.monster-meta{font-size:9px;color:#aeb8c7;margin-top:4px}.
@@ -21,7 +21,7 @@
 .talent-node.talent-notable{width:76px;height:76px;border-radius:14px;transform:translate(-50%,-50%);border-color:#8c6a31;background:radial-gradient(circle,#3b3020,#17130e);}
 .talent-node.talent-keystone{width:92px;height:92px;border-radius:50%;border:3px solid #b96cff;background:radial-gradient(circle,#43245a,#16101d);font-size:10px}
 .talent-hint{font-size:10px;color:#aeb8c7;margin-top:7px;text-align:center}
-</style></head><body><div class="app">
+.talent-toolbar{display:flex;align-items:center;gap:6px;margin:7px 0;font-size:10px;color:#aeb8c7}.talent-toolbar button{min-width:36px;padding:7px 8px}.talent-toolbar span{display:inline-flex;align-items:center;justify-content:center;min-width:46px}.talent-board{touch-action:none;user-select:none;-webkit-user-select:none}.talent-canvas{transform-origin:0 0}.talent-node{z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}.talent-svg{z-index:1;pointer-events:none}.talent-node:active{filter:brightness(1.25)}</style></head><body><div class="app">
 <header><h1>⚔️ 暗影刷宝 · V14</h1><div class="sub">地图 · 货币 · 专属地图 · 家园 · 装备/技能打造</div><div class="stats"><div class="stat"><b id="lvl">1</b><span>等级</span></div><div class="stat"><b id="gold">0</b><span>金币</span></div><div class="stat"><b id="mapTier">T1</b><span>最高地图</span></div><div class="stat"><b id="xp">0%</b><span>经验</span></div></div></header>
 <main>
 <section id="adventure"><div class="panel"><div class="section">🧬 属性与抗性</div><div class="attr-grid" id="attrs"></div><div class="res-grid" id="resists"></div></div><div class="panel"><div class="row"><div><div id="enemy" class="enemy">荒野掠夺者</div><div id="enemyMeta" class="small"></div></div><span id="enemyTag" class="pill">普通怪</span></div><div class="bar"><div id="enemyHp" class="hp"></div></div><div id="enemyHpText" class="small"></div><div class="grid"><button class="primary" onclick="attack()">⚔️ 攻击</button><button onclick="cast()">✨ 释放技能</button></div></div><div class="panel auto-panel"><div class="row"><div class="section">🤖 自动战斗</div><div class="auto-status"><i id="autoDot" class="dot"></i><span id="autoStatus">未启动</span></div></div><div class="notice">自动执行：攻击、技能循环、按血量吃药、击杀后自动继续下一只怪。进入地图后可连续刷怪。</div><div class="auto-grid"><label>战斗模式<select id="autoMode"><option value="balanced">均衡：普攻+技能</option><option value="skill">技能优先</option><option value="attack">普攻优先</option></select></label><label>吃生命药水<select id="autoHp"><option value="0.35">HP ≤ 35%</option><option value="0.5" selected>HP ≤ 50%</option><option value="0.65">HP ≤ 65%</option></select></label><label>技能间隔<select id="autoSkill"><option value="1.2">1.2 秒</option><option value="1.8" selected>1.8 秒</option><option value="2.5">2.5 秒</option></select></label><label>攻击间隔<select id="autoAttack"><option value="0.8">0.8 秒</option><option value="1.1" selected>1.1 秒</option><option value="1.5">1.5 秒</option></select></label></div><div class="grid"><button class="green" id="autoBtn" onclick="toggleAuto()">▶ 开始自动战斗</button><button onclick="autoSettings()">⚙ 保存设置</button></div><div class="combat-flasks"><button onclick="useFlask(0)">🧪 生命</button><button onclick="useFlask(1)">🔷 魔力</button><button onclick="useFlask(3)">🛡️ 坚岩</button><button onclick="useFlask(4)">💨 迅捷</button></div><div id="autoLog" class="auto-log"></div></div><div class="panel"><div class="section">当前地图</div><div id="currentMapInfo" class="small"></div><div class="grid"><button class="green" onclick="finishMap()">🗺️ 完成当前地图</button><button onclick="openMaps()">查看地图</button></div></div><div class="panel"><div class="section">角色状态</div><div id="hpText" class="small"></div><div class="bar"><div id="playerHp" class="hp"></div></div><div id="playerStats" class="small"></div></div><div class="panel"><div class="section">战斗记录</div><div id="log" class="log"></div></div></section>
@@ -29,7 +29,7 @@
 <section id="inventory" class="hidden"><div class="panel"><div class="section">🧪 药水栏</div><div class="flask-grid" id="flasks"></div><div class="notice">药水拥有品质、充能、回复效果与词缀；战斗中可直接使用。药水可叠加词缀，但不能重复同类前缀。</div></div><div class="panel"><div class="row"><div class="section">装备背包</div><span id="bagCount" class="pill"></span></div><div class="sellbar"><button class="gold" onclick="sellAllGear()">💰 一键售出全部装备</button><button onclick="storeAllGear()">📦 全部存入仓库</button></div><div class="notice">一键售出只处理背包中的未装备物品，不会出售已穿戴装备。</div><div id="bagCompare"></div><div id="bag"></div></div></section>
 <section id="maps" class="hidden"><div class="panel"><div class="row"><div class="section">地图装置</div><span class="pill">地图等级决定怪物强度与掉落</span></div><div class="map-grid" id="mapList"></div></div><div class="panel"><div class="section">地图规则</div><div class="notice">普通地图白色；魔法地图蓝色；稀有地图黄色；专属地图橙色。地图可以掉落更高阶地图。高阶地图有更高货币、装备、专属地图掉落率。</div></div></section>
 <section id="currency" class="hidden"><div class="panel"><div class="row"><div class="section">货币仓库</div><span class="pill">POE 式独立货币</span></div><div class="currency-grid" id="currencyList"></div></div><div class="panel"><div class="section">货币使用</div><div class="craft-actions"><button onclick="useCurrency('transmute')">🔵 蜕变：白→蓝</button><button onclick="useCurrency('augmentation')">🔹 增幅：蓝+1词缀</button><button onclick="useCurrency('alchemy')">🟡 点金：白→黄</button><button onclick="useCurrency('exalted')">🟠 崇高：黄+1词缀</button><button onclick="useCurrency('regal')">🔶 富豪：蓝→黄</button><button onclick="useCurrency('scour')">⚪ 重铸：清空词缀</button><button onclick="useCurrency('chaos')">🟤 混沌重铸</button><button onclick="useCurrency('divine')">🟠 神圣重置</button></div><div class="notice">先在工艺台选择装备。货币不是金币：掉落、拾取、打造各自独立。</div></div></section>
-<section id="talents" class="hidden"><div class="panel"><div class="row"><div class="section">🌳 天赋盘</div><span class="pill">流放式被动天赋 · <span id="talentPoints" class="talent-points">0</span> 点可用</span></div><div class="talent-board" id="talentBoard"></div><div class="tree-legend"><span><i class="legend-dot" style="background:#69c77a"></i>已激活</span><span><i class="legend-dot" style="background:#d9ad51"></i>可学习</span><span><i class="legend-dot" style="background:#4b5668"></i>未连接</span></div><div id="talentInfo" class="talent-info"></div><button style="margin-top:8px" onclick="respecTalents()">🔄 重置天赋（5 混沌石）</button></div></section><section id="home" class="hidden"><div class="panel"><div class="section">🏠 家园 / 藏身处</div><div class="notice">家园是成长中心：购买装备、货币、技能宝石、地图，并管理仓库与打造台。</div><div class="shop" id="shop"></div></div><div class="panel"><div class="row"><div class="section">📦 家园仓库</div><span class="pill">分类储存</span></div><div class="stash-tabs"><button class="stash-tab active" onclick="stashTab('currency',this)">🪙 货币</button><button class="stash-tab" onclick="stashTab('gear',this)">🛡️ 装备</button><button class="stash-tab" onclick="stashTab('maps',this)">🗺️ 地图</button><button class="stash-tab" onclick="stashTab('gems',this)">💎 技能</button></div><div id="stash"></div></div><div class="panel"><div class="section">工艺台</div><div id="target"></div><div class="craft-actions"><button class="gold" onclick="craftQuality()">品质强化</button><button class="gold" onclick="rerollAffix()">词缀重铸</button><button onclick="socketCraft()">镶孔</button><button onclick="skillCraft()">技能打造</button></div></div></section>
+<section id="talents" class="hidden"><div class="panel"><div class="row"><div class="section">🌳 天赋盘</div><span class="pill">流放式被动天赋 · <span id="talentPoints" class="talent-points">0</span> 点可用</span></div><div class="talent-toolbar"><button type="button" onclick="talentZoom(-0.15)">－</button><span id="talentZoomText">100%</span><button type="button" onclick="talentZoom(0.15)">＋</button><button type="button" onclick="talentResetView()">◎ 居中</button><span class="small">双指缩放 · 单指拖动 · 点击节点学习</span></div><div class="talent-board" id="talentBoard"></div><div class="tree-legend"><span><i class="legend-dot" style="background:#69c77a"></i>已激活</span><span><i class="legend-dot" style="background:#d9ad51"></i>可学习</span><span><i class="legend-dot" style="background:#4b5668"></i>未连接</span></div><div id="talentInfo" class="talent-info"></div><button style="margin-top:8px" onclick="respecTalents()">🔄 重置天赋（5 混沌石）</button></div></section><section id="home" class="hidden"><div class="panel"><div class="section">🏠 家园 / 藏身处</div><div class="notice">家园是成长中心：购买装备、货币、技能宝石、地图，并管理仓库与打造台。</div><div class="shop" id="shop"></div></div><div class="panel"><div class="row"><div class="section">📦 家园仓库</div><span class="pill">分类储存</span></div><div class="stash-tabs"><button class="stash-tab active" onclick="stashTab('currency',this)">🪙 货币</button><button class="stash-tab" onclick="stashTab('gear',this)">🛡️ 装备</button><button class="stash-tab" onclick="stashTab('maps',this)">🗺️ 地图</button><button class="stash-tab" onclick="stashTab('gems',this)">💎 技能</button></div><div id="stash"></div></div><div class="panel"><div class="section">工艺台</div><div id="target"></div><div class="craft-actions"><button class="gold" onclick="craftQuality()">品质强化</button><button class="gold" onclick="rerollAffix()">词缀重铸</button><button onclick="socketCraft()">镶孔</button><button onclick="skillCraft()">技能打造</button></div></div></section>
 <section id="skills" class="hidden"><div class="panel"><div class="row"><div class="section">💎 技能宝石与辅助宝石</div><span class="pill">6孔技能连接 / BD系统</span></div><div class="loadout"><b>当前技能配置</b><div id="skillLoadout" class="small" style="margin-top:6px"></div></div><div class="section">主动技能</div><div id="skillsList"></div><div class="section" style="margin-top:10px">辅助宝石</div><div class="notice">选择最多 3 个辅助宝石。只有已连接的辅助宝石才会生效；不同辅助宝石可以形成不同 BD。</div><div id="supportList" class="support-list"></div></div><div class="panel"><div class="section">🔴🟢🔵 装备孔与连接</div><div class="notice">工匠石增加孔位，连接石重连孔位。红/绿/蓝代表力量/敏捷/智力孔。当前打造装备可在这里查看。</div><div id="socketEditor"></div></div></section>
 </main><nav class="tabs"><div class="tab active" onclick="tab('adventure',this)">⚔️ 冒险</div><div class="tab" onclick="tab('equipment',this)">🛡️ 装备</div><div class="tab" onclick="tab('inventory',this)">🎒 背包</div><div class="tab" onclick="tab('maps',this)">🗺️ 地图</div><div class="tab" onclick="tab('talents',this)">🌳 天赋</div><div class="tab" onclick="tab('currency',this)">🪙 货币</div><div class="tab" onclick="tab('skills',this)">💎 技能</div><div class="tab" onclick="tab('home',this)">🏠 家园</div></nav>
 <script>
@@ -336,5 +336,133 @@ S.schemaVersion=14;if(S.compareItemId===undefined)S.compareItemId=null;
 S.bag=(S.bag||[]).map(v13NormalizeItem);S.stash.gear=(S.stash.gear||[]).map(v13NormalizeItem);
 S.maps=S.maps||[];if(!S.maps.length)S.maps=[createMap(1,false),createMap(1,false),createMap(2,false)];if(!S.currentMap)S.currentMap=null;
 window.attack=attack;window.cast=cast;window.toggleAuto=toggleAuto;window.autoSettings=autoSettings;window.log=log;newEnemy();log('⚔️ V14 启动：复杂天赋盘 + 可拖动画布 + 底材系统 + T1-T5前后缀 + 6孔/6连目标 + 流放式通货打造 + 宝石成长 + 天赋/抗性/自动战斗');render();save();
+
+
+/* ==================== V14 修复：天赋缩放/点击、装备打造、连续刷怪 ==================== */
+(function(){
+  let talentView={x:0,y:0,scale:1,drag:false,pointers:new Map(),startX:0,startY:0,originX:0,originY:0,moved:false,pinchStartDist:0,pinchStartScale:1};
+  const TB_W=1800,TB_H=1300;
+  function applyTalentView(board,canvas){
+    const vw=board.clientWidth||320,vh=board.clientHeight||560,s=talentView.scale;
+    const bw=TB_W*s,bh=TB_H*s;
+    const minX=Math.min(0,vw-bw), minY=Math.min(0,vh-bh);
+    talentView.x=Math.max(minX,Math.min(0,talentView.x));
+    talentView.y=Math.max(minY,Math.min(0,talentView.y));
+    canvas.style.transform=`translate(${talentView.x}px,${talentView.y}px) scale(${s})`;
+    const z=document.getElementById('talentZoomText');if(z)z.textContent=Math.round(s*100)+'%';
+  }
+  function centerTalent(){
+    const board=document.getElementById('talentBoard');if(!board)return;
+    const s=talentView.scale;talentView.x=board.clientWidth/2-(900*s);talentView.y=board.clientHeight/2-(650*s);
+    const canvas=board.querySelector('.talent-canvas');if(canvas)applyTalentView(board,canvas);
+  }
+  window.talentZoom=function(delta){
+    const board=document.getElementById('talentBoard');if(!board)return;
+    const canvas=board.querySelector('.talent-canvas');if(!canvas)return;
+    const old=talentView.scale,newScale=Math.max(.55,Math.min(1.8,old+delta));
+    const cx=board.clientWidth/2,cy=board.clientHeight/2;
+    const worldX=(cx-talentView.x)/old,worldY=(cy-talentView.y)/old;
+    talentView.scale=newScale;talentView.x=cx-worldX*newScale;talentView.y=cy-worldY*newScale;applyTalentView(board,canvas);
+  };
+  window.talentResetView=function(){talentView.scale=1;centerTalent()};
+  window.renderTalents=function(){
+    const board=document.getElementById('talentBoard');if(!board)return;
+    let canvas=board.querySelector('.talent-canvas');
+    if(!canvas){canvas=document.createElement('div');canvas.className='talent-canvas';board.innerHTML='';board.appendChild(canvas);}
+    const by=new Map(talents.map(t=>[t.id,t]));
+    const lines=talents.filter(t=>t.req&&by.has(t.req)).map(t=>{const r=by.get(t.req);return `<line class="talent-line ${S.talents[t.id]?'active':''}" x1="${r.x}" y1="${r.y}" x2="${t.x}" y2="${t.y}"/>`}).join('');
+    const nodes=talents.map(t=>{
+      let cls='talent-node '+(t.core?'talent-keystone ':t.name.includes('专精')?'talent-small ':'')+(t.name.includes('机器')||t.name.includes('大法师')||t.name.includes('猎杀')||t.name.includes('毁灭')||t.name.includes('堡垒')?'talent-notable ':'')+(S.talents[t.id]?'allocated':talentCanLearn(t)?'available':'');
+      const labels={damage:'伤害',attack:'攻击',spell:'技能',hp:'生命',armor:'护甲',evasion:'闪避',crit:'暴击',mana:'法力',attackSpeed:'攻速',skillSpeed:'冷却',leech:'吸血',regen:'回复',resCap:'抗性上限',fireRes:'火抗',coldRes:'冰抗',lightningRes:'雷抗',chaosRes:'混抗',damageAmp:'增幅'};
+      const stat=Object.entries(t.stats).map(([k,v])=>(labels[k]||k)+' +'+v).join(' · ');
+      return `<button type="button" class="${cls}" data-talent-id="${t.id}" style="left:${t.x}px;top:${t.y}px"><div class="tn">${t.name}</div><div class="tv">${stat}</div></button>`;
+    }).join('');
+    canvas.innerHTML=`<svg class="talent-svg" viewBox="0 0 ${TB_W} ${TB_H}" preserveAspectRatio="none">${lines}</svg>${nodes}`;
+    canvas.onclick=function(e){
+      const n=e.target.closest&&e.target.closest('.talent-node');if(!n)return;
+      const id=n.getAttribute('data-talent-id');if(id)window.learnTalent(id);
+    };
+    if(!board._gestureBound){
+      board._gestureBound=true;
+      const dist=(a,b)=>Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);
+      board.addEventListener('pointerdown',e=>{
+        board.setPointerCapture?.(e.pointerId);talentView.pointers.set(e.pointerId,e);talentView.moved=false;
+        if(talentView.pointers.size===2){const ps=[...talentView.pointers.values()];talentView.pinchStartDist=dist(ps[0],ps[1]);talentView.pinchStartScale=talentView.scale;}
+        else if(!e.target.closest?.('.talent-node')){talentView.drag=true;talentView.startX=e.clientX;talentView.startY=e.clientY;talentView.originX=talentView.x;talentView.originY=talentView.y;}
+      },{passive:false});
+      board.addEventListener('pointermove',e=>{
+        if(!talentView.pointers.has(e.pointerId))return;talentView.pointers.set(e.pointerId,e);
+        if(talentView.pointers.size===2){
+          const ps=[...talentView.pointers.values()];const d=dist(ps[0],ps[1]);
+          if(talentView.pinchStartDist>0){const factor=d/talentView.pinchStartDist;const old=talentView.scale;const ns=Math.max(.55,Math.min(1.8,talentView.pinchStartScale*factor));const midX=(ps[0].clientX+ps[1].clientX)/2,midY=(ps[0].clientY+ps[1].clientY)/2;const boardRect=board.getBoundingClientRect();const cx=midX-boardRect.left,cy=midY-boardRect.top;const wx=(cx-talentView.x)/old,wy=(cy-talentView.y)/old;talentView.scale=ns;talentView.x=cx-wx*ns;talentView.y=cy-wy*ns;applyTalentView(board,canvas);}
+          e.preventDefault();return;
+        }
+        if(talentView.drag){const dx=e.clientX-talentView.startX,dy=e.clientY-talentView.startY;if(Math.abs(dx)+Math.abs(dy)>5)talentView.moved=true;talentView.x=talentView.originX+dx;talentView.y=talentView.originY+dy;applyTalentView(board,canvas);e.preventDefault();}
+      },{passive:false});
+      const end=e=>{talentView.pointers.delete(e.pointerId);if(talentView.pointers.size<2)talentView.pinchStartDist=0;talentView.drag=false;try{board.releasePointerCapture?.(e.pointerId)}catch(_){} };
+      board.addEventListener('pointerup',end);board.addEventListener('pointercancel',end);
+      board.addEventListener('wheel',e=>{e.preventDefault();window.talentZoom(e.deltaY>0?-0.1:0.1)},{passive:false});
+    }
+    applyTalentView(board,canvas);
+  };
+  window.openEquippedCraft=function(slot){
+    const x=S.slots[slot];if(!x)return;v13NormalizeItem(x);S.target=x;S.compareItemId=null;save();
+    const tabs=document.querySelectorAll('.tab');tab('home',tabs[7]);
+    log('🔨 已选择已装备的 '+(x.baseName||x.base)+' · 可直接打造');
+  };
+  window.selectEquipped=function(slot){
+    const x=S.slots[slot];if(!x)return;
+    v13NormalizeItem(x);S.target=x;S.compareItemId=null;save();render();
+    log('🔎 已选择 '+(x.baseName||x.base)+' · 现在可在家园工艺台直接打造');
+  };
+  window.renderEquipment=function(){
+    const equip=document.getElementById('equipGrid');if(!equip)return;
+    let h='';['helmet','amulet'].forEach(k=>h+=slotHTML(k));
+    h+=`<div class="center"><div class="character"><div class="body">🧙</div><b>暗影猎人 · Lv.${S.level}</b><span class="small">HP ${S.hp}/${S.maxHp} · MP ${S.mana}/${S.maxMana}</span></div></div>`;
+    ['weapon','body','offhand','gloves','ring1','belt','boots','ring2'].forEach(k=>h+=slotHTML(k));equip.innerHTML=h;
+    const d=document.getElementById('equippedDetail');
+    if(d){const x=S.target&&Object.values(S.slots).some(v=>v&&String(v.id)===String(S.target.id))?S.target:null;d.innerHTML=x?`<div class="panel" style="margin-top:8px"><div class="section">🔎 已装备属性 · 可打造</div>${itemDetailHTML(x)}<div class="grid"><button class="gold" onclick="openEquippedCraft('${x.slot}')">🔨 去工艺台打造</button><button onclick="unequipItem('${x.slot}')">↩️ 卸下</button></div></div>`:'';}
+  };
+  window.equipItem=function(id){
+    const idx=S.bag.findIndex(i=>String(i.id)===String(id));
+    if(idx<0){log('⚠️ 装备不存在于背包，可能已被移动；请重新点击背包物品');return false;}
+    const x=S.bag[idx];if(!x||!slotDefs[x.slot]){log('⚠️ 装备部位数据异常');return false;}
+    v13NormalizeItem(x);const old=S.slots[x.slot]||null;
+    if(old&&String(old.id)===String(x.id)){S.bag.splice(idx,1);S.slots[x.slot]=x;}
+    else{S.bag.splice(idx,1);if(old)S.bag.unshift(old);S.slots[x.slot]=x;}
+    S.target=x;S.compareItemId=null;save();render();log('🛡️ 已装备：'+(x.baseName||x.base)+' → '+slotDefs[x.slot][0]+(old?' · 原装备已回背包':''));return true;
+  };
+  // 打造目标统一引用真实对象：背包或装备栏都可以打造，不依赖旧的比较对象。
+  const craftTarget=window.v13RenderCraftPanel;
+  window.v13RenderCraftPanel=function(){
+    const x=S.target,box=document.getElementById('target');if(!box)return;
+    if(!x){box.innerHTML='<div class="small">尚未选择装备。背包或装备栏点击装备后即可打造。</div>';return;}
+    v13NormalizeItem(x);box.innerHTML=itemHTML(x,false)+`<div class="v13-craft"><button onclick="transmuteCraft()">🔵 蜕变石：白→蓝</button><button onclick="regalCraft()">🔶 富豪石：蓝→黄</button><button onclick="addPrefix()">🔹 增幅石：加前缀</button><button onclick="addSuffix()">🟠 崇高石：加后缀</button><button onclick="rerollAffix()">🌀 混沌石：重铸词缀</button><button onclick="divineCraft()">🌟 神圣石：重掷数值</button><button onclick="scourCraft()">⚪ 重铸石：清空词缀</button><button onclick="socketCraft()">🔩 工匠石：随机孔数</button><button onclick="linkCraft()">🔗 连接石：随机连接</button><button onclick="socketColorCraft()">🌈 幻色石：随机孔色</button></div><div class="craft-desc" style="margin-top:8px">当前目标：${x.baseName||x.base} · ${slotDefs[x.slot]?.[0]||'装备'}。无论装备在背包还是已装备状态，都可以继续打造。</div>`;
+  };
+  // 自动战斗：击杀后由 hit() 立刻生成下一只怪，自动战斗下一个 tick 无缝继续。
+  window.autoTick=function(){
+    try{
+      if(!S.auto?.on)return;
+      if(!enemy||enemy.hp<=0){newEnemy();return;}
+      const now=Date.now()/1000;
+      const effectiveMaxHp=S.maxHp+(S.attributes?.str||0)*4+talentStats().hp+equippedStats().hp;
+      if(S.hp/Math.max(1,effectiveMaxHp)<=S.auto.hp){const f=S.flasks.findIndex(x= (x.type==='life'||x.type==='hybrid')&&x.charges>0);if(f>=0){useFlask(f);return;}}
+      if(S.mana/Math.max(1,S.maxMana)<=.22){const f=S.flasks.findIndex(x=(x.type==='mana'||x.type==='hybrid')&&x.charges>0);if(f>=0){useFlask(f);return;}}
+      const sup=(S.skillSetup?.supports||[]).map(supportById).filter(Boolean);const skillReady=now-(S.auto.lastSkill||0)>=(S.auto.skill||1.8)*sup.reduce((m,x)=>m*(x.cdMult||1),1);const attackReady=now-(S.auto.lastAttack||0)>=(S.auto.attack||1.1);
+      if(S.auto.mode!=='attack'&&skillReady&&S.mana>=(skillDefs[S.skill]?.cost||10)){S.auto.lastSkill=now;cast();return;}
+      if(attackReady){S.auto.lastAttack=now;attack();return;}
+    }catch(e){console.error(e);log('⚠️ 自动战斗异常：'+(e.message||e));S.auto.on=false;save();renderAuto();}
+  };
+  // 让击杀后的新怪在自动战斗中立刻成为下一个目标；不改变手动攻击逻辑。
+  const oldHit=window.hit||hit;
+  window.hit=function(){oldHit();if(S.auto?.on&&enemy&&enemy.hp<=0){newEnemy();}};
+  // 注意：attack/cast 使用词法绑定 hit，上面的 window 包装不会接管词法调用，因此直接替换攻击函数，确保连续逻辑。
+  const oldAttack=window.attack||attack,oldCast=window.cast||cast;
+  window.attack=function(){oldAttack();if(S.auto?.on&&enemy&&enemy.hp<=0)newEnemy();};
+  window.cast=function(){oldCast();if(S.auto?.on&&enemy&&enemy.hp<=0)newEnemy();};
+  // 原 V14 在脚本前面已经创建了旧 autoTick 定时器；这里切换到修复后的版本。
+  try{clearInterval(autoTimer);autoTimer=setInterval(window.autoTick,250);}catch(_){}
+  // 首次显示时保持中心位置；后续 render 不会重置缩放和平移。
+})();
 
 </script></div></body></html>
